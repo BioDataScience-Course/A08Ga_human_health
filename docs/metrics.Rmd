@@ -1,0 +1,19 @@
+---
+title: "Les indices de bonne santée"
+author: "___"
+date: "__/__/___"
+output: html_document
+---
+
+<!--- Consignes
+Ce document doit vous permettre de calculer divers indices qui sont utiles pour quantifier/qualifier l'état de bonne santé de personnes.
+
+Calculez au moins 4 indices utiles pour justifier l'état de bonne santé. 
+
+Vous devez décrire chaque indice.
+Vous devez associer à chaque indice la formule mathématique en utilisant le Latex.
+Vous devez calculer une variable sur base de la formule mathématique.
+Vous devez associer à votre variable calculée une variable facteur qui qualifie l'état de bonne santé.
+
+N'hésitez pas à associer un graphique ou un tableau utile pour visualiser/décrire vos indices calculés.
+--->

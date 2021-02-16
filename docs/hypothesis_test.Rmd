@@ -1,0 +1,34 @@
+---
+title: "___"
+author: "___"
+date: "__/__/___"
+output: html_document
+---
+
+<!--- Consignes
+Ce document doit vous permettre de réaliser plusieurs tests d'hypothèses. N'hésitez pas à employer les indices que vous avez calculé dans le document `metrics.Rmd`.
+
+Chaque test d'hypothèse doit être correctement employé.
+Vous devez proposer un graphique ou un tableau qui permet bien appréhender le test que vous allez réaliser. Ce graphique ou tableau doit être décrit et avec des labels corrects.
+Vous devez proposer pour chaque test, l'hypothèse nulle et l'hypothèse alternative.
+Vous devez vérifier les conditions d'application du test d'hypothèse.
+Vous devez décrire votre test statistique du point de vue biologique et statistique.
+--->
+
+# Test de Chi^2^
+
+<!--- Consinges
+Réalisez au moins 2 tests chi carré.
+--->
+
+# Test t de Student
+
+<!--- Consinges
+Réalisez au moins 2 test t de Student.
+--->
+
+# Analyse de variances
+
+<!--- Consinges
+Réalisez au moins 2 Anova.
+--->

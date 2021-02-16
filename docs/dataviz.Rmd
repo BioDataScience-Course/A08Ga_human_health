@@ -1,0 +1,14 @@
+---
+title: "___"
+author: "___"
+date: "__/__/____"
+output: html_document
+---
+
+<!--- Consignes
+Ce document doit vous permettre d'explorer les données brutes. Vous devez réaliser 10 graphiques. 
+
+Chaque graphique doit avoir des labels et des unités corrects.  
+
+Chaque graphique doit être décrit avec au minimum 5 et maximum 10 lignes.
+--->

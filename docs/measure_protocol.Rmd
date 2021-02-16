@@ -1,0 +1,16 @@
+---
+title: "___"
+author: "___"
+date: "__/__/____"
+output: html_document
+---
+
+<!--- Consignes
+Proposez un document qui propose une description du protocole et une réflexion critique sur ce protocole.
+
+Pour vous aider, des métadonnées ont été associées au jeu de données `biometry2019.rds` a été recensée dans un document googledoc dont l’url est le suivant :
+
+https://docs.google.com/spreadsheets/d/1j55bB9YEAVbS4eRE-i6L-NEYhHXua-dxs-aQr_qko7k/edit?usp=sharing
+
+Ce document doit vous permettre de cerner précisément les mesures qui ont été réalisées et la population étudiée. De quel type d'échantillonnage s'agit-il ? 
+--->
