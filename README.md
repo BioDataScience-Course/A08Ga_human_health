@@ -25,7 +25,7 @@ Chaque document doit être exécutable. Il ne peut donc pas dépendre d'un autre
 
 ### Phase d'exploration
 
-Avant de débuter un projet, vous devez réaliser un travail préliminaire. Vous devez
+Avant de débuter un projet, vous devez réaliser un travail préliminaire. Les données se trouve dnas le dossier `docs/raw/`. Vous devez
 
 - compléter le fichier `state_of_art.Rmd` afin de proposer un état de l'art.
 - compléter le fichier `measure_protocol.Rmd` afin de cerner précisément la population étudiée et les mesures réalisées. Ce document doit vous permettre de cerner les mesures manquantes, les erreurs potentielles de mesures,...
@@ -36,6 +36,8 @@ Après avoir réalisé ces 3 premiers fichiers, vous devriez avoir une vision gl
 Il est évident que votre but doit être une question que vous vous posez en lien avec la santé humaine que vous pouvez traiter grâce aux données mise à votre disposition.
 
 ### Phase de test
+
+Avant de débuter cette seconde phase, vous devez compléter le script `biometry.R`. Ce script sera votre point de départ pour cette seconde phase. A présent vous devrez utiliser le fichier que vous allez généré bio2019.rds dans le dossier `docs/`.
 
 Vous devez
 
