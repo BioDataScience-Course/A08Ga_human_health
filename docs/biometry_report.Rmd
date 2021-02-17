@@ -9,9 +9,9 @@ output: html_document
 # Introduction
 
 <!--- Consignes
-En utilisant, les recherches bibliographiques que vous avez réalisé. Proposez une introduction de 15 lignes. 
+En utilisant les recherches bibliographiques que vous avez réalisées, proposez une introduction de 15 lignes. 
 
-Cette introduction doit guider le lecteur l'importance de votre but.
+Cette introduction doit guider le lecteur vers l'importance de votre but.
 --->
 
 # But
@@ -19,13 +19,13 @@ Cette introduction doit guider le lecteur l'importance de votre but.
 <!--- Consignes
 Proposez en 5 à 10 lignes un but clair de votre projet. 
 
-Notes : Un but trop général n'est pas bon.
+Notes : Un but trop général n'est pas bon. Par exemple, la santé humaine n'est pas un but pour ce travail, il est trop général.
 --->
 
 # Matériels et méthode
 
 <!--- Consignes
-Le m&m doit comprendre une partie sur les mesures effectuées. Utilisez le fichier `measure_protocol.Rmd` pour proposez cette section. 
+Le m&m doit comprendre une partie sur les mesures effectuées. Utilisez le fichier `measure_protocol.Rmd` pour proposer cette section. 
 
 Attention, le m&m ne doit pas être un copier-coller de `measure_protocol.Rmd`. Vous devez réaliser une synthèse des informations les plus pertinentes.
 
@@ -37,7 +37,7 @@ Le m&m doit comprendre une seconde partie sur les outils informatiques et statis
 <!--- Consignes
 Sur base du document `hypothesis_test.Rmd`, sélectionnez les analyses les plus pertinentes. Vous devez choisir au maximum 3 tests.
 
-Comme dans le document `hypothesis_test.Rmd`, Chaque test d'hypothèse doit être associé à un graphique ou un tableau. De plus, chaque test doit être décrit.
+Comme dans le document `hypothesis_test.Rmd`, chaque test d'hypothèse doit être associé à un graphique ou un tableau. De plus, chaque test doit être décrit.
 --->
 
 # Discussion

@@ -8,7 +8,7 @@ output: html_document
 <!--- Consignes
 Proposez un document qui propose une description du protocole et une réflexion critique sur ce protocole.
 
-Pour vous aider, des métadonnées ont été associées au jeu de données `biometry2019.rds` a été recensée dans un document googledoc dont l’url est le suivant :
+Pour vous aider, des métadonnées ont été associées au jeu de données `biometry2019.rds` Ces informations sont recensées dans un document googledoc dont l’URL est le suivant :
 
 https://docs.google.com/spreadsheets/d/1j55bB9YEAVbS4eRE-i6L-NEYhHXua-dxs-aQr_qko7k/edit?usp=sharing
 

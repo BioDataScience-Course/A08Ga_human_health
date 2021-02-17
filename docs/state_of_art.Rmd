@@ -2,13 +2,15 @@
 title: "Etat de l'art sur la santé humaine"
 author: "___"
 date: "__/__/___"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 <!--- Consignes
-Ce projet porte sur l'état de la santé humaine. Avant de vous lancer dans ce projet, vous devez réaliser des recherches bibliographiques afin d'avoir une vision précise de la thématique. 
+Ce projet porte sur la santé humaine. Avant de vous lancer dans ce projet, vous devez réaliser des recherches bibliographiques afin d'avoir une vision précise de la thématique. 
 
 Existe t'il des indices afin de quantifier l'état de santé ? 
 
-Ce document ...
+Ce document de synthèse sur vos recherches ne doit pas dépasser les pages 8 à 10 pages.
 --->

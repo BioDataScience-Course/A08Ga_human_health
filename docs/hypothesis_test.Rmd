@@ -32,3 +32,9 @@ Réalisez au moins 2 test t de Student.
 <!--- Consinges
 Réalisez au moins 2 Anova.
 --->
+
+# Analyse de variances à deux facteurs
+
+<!--- Consinges
+Réalisez au moins 2 Anova à deux facteurs.
+--->
