@@ -1,0 +1,173 @@
+---
+title: "___"
+author: "___"
+date: "___"
+output: html_document
+---
+
+## Indices
+
+<!--% Calculez divers indices qui sont utiles pour quantifier/qualifier l'état de bonne santé de personnes, en vous basant sur la littérature et en relation avec votre question de recherche. -->
+
+<!--% Calculez au moins quatre indices utiles pour justifier l'état de bonne santé (un par étudiant).  Décrivez chaque indice. Utilisez une formule mathématique en LaTeX de l'indice. Calculer une variable sur base de la formule mathématique. Si cela est pertinent, définissez aussi une variable facteur qui qualifie l'état de bonne santé selon une échelle qualitative. -->
+
+<!--% N'hésitez pas à associer un graphique ou un tableau utiles pour visualiser/décrire vos indices calculés. -->
+
+### Indice 1
+
+<!--% Description ici. -->
+
+<!--% Formule mathématique ici -->
+
+
+```{r indice1}
+# Calcul de la ou des variables reprenant l'indice sous forme numérique (et facteur)
+
+```
+
+### Indice 2
+
+<!--% Description ici. -->
+
+<!--% Formule mathématique ici -->
+
+
+```{r indice2}
+# Calcul de la ou des variables reprenant l'indice sous forme numérique (et facteur)
+
+```
+
+### Indice 3
+
+<!--% Description ici. -->
+
+<!--% Formule mathématique ici -->
+
+
+```{r indice3}
+# Calcul de la ou des variables reprenant l'indice sous forme numérique (et facteur)
+
+```
+
+### Indice 4
+
+<!--% Description ici. -->
+
+<!--% Formule mathématique ici -->
+
+
+```{r indice4}
+# Calcul de la ou des variables reprenant l'indice sous forme numérique (et facteur)
+
+```
+
+
+## Tests d'hypothèses
+
+<!--% Dans cette partie, réalisez plusieurs tests d'hypothèses. N'hésitez pas à employer les indices que vous avez calculé ci-dessus, ainsi que les variables de départ. Effectuez et interprétez au moins deux tests d'hypothèses pour chaque type ci-dessous. Répartissez le travail entre chaque étudiant : à chaque fois deux étudiants réalisent les deux tests et les deux autres les interprètent (les commits doivent bien montrer qui a fait quoi). -->
+
+<!--% Chaque test d'hypothèse doit être correctement employé. Vous devez indiquer pour chaque test, l'hypothèse nulle et l'hypothèse alternative. Vous devez vérifier les conditions d'application du test d'hypothèse. Vous le réalisez, et ensuite vous l'interprétez du point de vue statistique d'abord et biologique ensuite. -->
+
+### Test de Chi^2^ 1
+
+<!-- Hypothèse nulle et alternative -->
+
+<!-- Vérification des conditions d'application -->
+
+```{r test_chi2_1}
+
+```
+
+<!-- Interprétation statistique et biologique -->
+
+
+### Test de Chi^2^ 2
+
+<!-- Hypothèse nulle et alternative -->
+
+<!-- Vérification des conditions d'application -->
+
+```{r test_chi2_2}
+
+```
+
+<!-- Interprétation statistique et biologique -->
+
+
+### Test t de Student 1
+
+<!-- Hypothèse nulle et alternative -->
+
+<!-- Vérification des conditions d'application -->
+
+```{r test_t_1}
+
+```
+
+<!-- Interprétation statistique et biologique -->
+
+
+### Test t de Student 2
+
+<!-- Hypothèse nulle et alternative -->
+
+<!-- Vérification des conditions d'application -->
+
+```{r test_t_2}
+
+```
+
+<!-- Interprétation statistique et biologique -->
+
+
+### ANOVA 1 facteur 1
+
+<!-- Hypothèse nulle et alternative -->
+
+<!-- Vérification des conditions d'application -->
+
+```{r test_anova1_1}
+
+```
+
+<!-- Interprétation statistique et biologique -->
+
+
+### ANOVA 1 facteur 2
+
+<!-- Hypothèse nulle et alternative -->
+
+<!-- Vérification des conditions d'application -->
+
+```{r test_anova1_2}
+
+```
+
+<!-- Interprétation statistique et biologique -->
+
+
+### ANOVA 2 facteurs 1
+
+<!-- Hypothèse nulle et alternative -->
+
+<!-- Vérification des conditions d'application -->
+
+```{r test_anova2_1}
+
+```
+
+<!-- Interprétation statistique et biologique -->
+
+
+### ANOVA 2 facteurs 2
+
+<!-- Hypothèse nulle et alternative -->
+
+<!-- Vérification des conditions d'application -->
+
+```{r test_anova2_2}
+
+```
+
+<!-- Interprétation statistique et biologique -->
+

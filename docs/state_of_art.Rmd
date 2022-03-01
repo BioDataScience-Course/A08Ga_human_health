@@ -1,16 +1,17 @@
 ---
-title: "Etat de l'art sur la santé humaine"
+title: "État des connaissances, projet santé humaine"
 author: "___"
-date: "__/__/___"
-output:
-  pdf_document: default
-  html_document: default
+date: "___"
+output: html_document
 ---
 
-<!--- Consignes
-Ce projet porte sur la santé humaine. Avant de vous lancer dans ce projet, vous devez réaliser des recherches bibliographiques afin d'avoir une vision précise de la thématique. 
+## Synthèse bibliographique
 
-Existe t'il des indices afin de quantifier l'état de santé ? 
+<!--% Ce projet porte sur la santé humaine de manière générale, liée à l'obésité, à la façon de se nourrir et aux activités réalisées (plus ou moins sédentaire ou actif), ... Avant de vous lancer dans ce projet, vous devez réaliser des recherches bibliographiques afin d'avoir une vision précise de la thématique. Existe-t'il des indicateurs calculables pour quantifier l'état de santé d'un individu, par exemple ? Naturellement, ces indicateurs doivent être calculables sur bases des variables mesurées dans votre jeu de données. Focalisez-vous donc sur ces variables-là. -->
 
-Ce document de synthèse sur vos recherches ne doit pas dépasser les pages 8 à 10 pages.
---->
+<!--# Ce document de synthèse sur vos recherches ne doit pas dépasser 2 à 3 pages. Ne dépssaez pas 1 à 23 heures de travail par personne pour cette section. -->
+
+
+## Question de recherche
+
+<!--% Terminez ce document en spécifiant clairement la question de recherche que vous avez choisie de traiter en 1 ou 2 phrases. Attention ceci doit faire l'objet d'un consensus entre tous les étudiants du groupe et doit absolument être validée par un de vos enseignants avant d'aller plus loin. -->

@@ -1,16 +1,15 @@
 ---
 title: "___"
 author: "___"
-date: "__/__/____"
+date: "___"
 output: html_document
 ---
 
-<!--- Consignes
-Proposez un document qui propose une description du protocole et une réflexion critique sur ce protocole.
+## Protocole
 
-Pour vous aider, des métadonnées ont été associées au jeu de données `biometry2019.rds` Ces informations sont recensées dans un document googledoc dont l’URL est le suivant :
+<!--% Imaginez un protocole de mesures plausible et compatible avec les données que vous avez à disposition en 5 à 7 paragraphes. Aidez-vous également du dictionnaire des données qui explicite chaque variable. Ce dernier est disponible sous forme Google Doc ici : https://docs.google.com/spreadsheets/d/1j55bB9YEAVbS4eRE-i6L-NEYhHXua-dxs-aQr_qko7k/edit?usp=sharing -->
 
-https://docs.google.com/spreadsheets/d/1j55bB9YEAVbS4eRE-i6L-NEYhHXua-dxs-aQr_qko7k/edit?usp=sharing
 
-Ce document doit vous permettre de cerner précisément les mesures qui ont été réalisées et la population étudiée. De quel type d'échantillonnage s'agit-il ? 
---->
+## Population, échantillonnage et vie privée
+
+<!--% Mettez en avant les informations qui vous manquent, et insistez particulièrement sur les questions de population, d'échantillonnage et de respect de la vie privée (RGPD) -->
