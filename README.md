@@ -1,16 +1,18 @@
 Santé humaine
 ================
 
-# Avant-propos
+# Introduction
 
-Les consignes reprises dans ce document, ainsi que dans les différents
-fichiers sont susceptibles d’évoluer. N’hésitez pas à vérifier le lien
-suivant afin de voir si des modifications n’y ont pas été apportées :
-<https://github.com/BioDataScience-Course/A08Gb_human_health>.
-
-Ce projet est un projet de groupe qui porte sur l’ensemble de la
-matière. Afin de mener à bien ce travail vous devrez maîtriser
-l’ensemble du cours de Science des Données Biologiques I.
+Au cours des dernières décennies, la santé humaine a connu un déclin
+alarmant dans de nombreuses régions du monde. L’obésité est l’un des
+principaux facteurs contribuant à cette tendance inquiétante. L’obésité,
+définie comme un excès de graisse corporelle, peut entraîner un large
+éventail de problèmes de santé, notamment des maladies
+cardiovasculaires, des accidents vasculaires cérébraux, des cancers, des
+troubles musculo-squelettiques et des troubles mentaux. En outre,
+l’obésité est souvent associée à un mode de vie sédentaire et à une
+alimentation malsaine, qui peuvent également avoir des effets négatifs
+sur la santé.
 
 # Objectifs
 
@@ -38,15 +40,15 @@ suivantes :
 # Consignes
 
 Ce projet comprend plusieurs documents que vous allez devoir compléter.
-Répartissez-vous judicieusement le travail. Vous pouvez décomposer votre
-progression en trois phases détaillées ci-dessous.
+Répartissez-vous judicieusement le travail. Ce projet fait suite au
+projet A05Ga_22M_biometry. Vous avez pu lors de ce premier projet,
+collecter, nettoyer et explorer des données en lien avec la santé
+humaine.
 
-**Faites bien attention que le ou les scripts R doivent être exécutables
-et que tous les documents R Markdown doivent compiler (bouton ‘Knit’)
-sans erreurs en rapports HTML à la fin du travail.**
+Ce nouveau projet va s’appuyer sur les données que vous avez collecté.
 
-N’**utilisez pas** l’argument `echo=FALSE` dans vos chunks. Le code R
-qui génère les résultats doit rester visible dans les versions HTML.
+Vous pouvez décomposer votre progression en trois phases détaillées
+ci-dessous.
 
 ## Phase d’exploration
 
@@ -55,26 +57,21 @@ qui consiste à vous documenter sur le sujet et à préparer les données.
 Les données brutes se trouvent dans le sous-dossier `data/raw/`. Vous
 devez :
 
--   compléter le fichier `docs/measure_protocol.Rmd` afin de cerner
-    précisément la population étudiée et les mesures réalisées. Ce
-    document doit vous permettre de déterminer s’il y a des mesures
-    manquantes, des erreurs potentielles de mesures,…
+-   compléter le fichier `R/import_tidy.R` afin de récupérer les données
+    localement. Vous devez également y ajouter les labels et les unités
+    en utilisant le dictionnaire des données.
 
 -   compléter le fichier `docs/state_of_art.Rmd` sur base d’une petite
     recherche bibliographique que vous commencerez par la publication
     proposée dans le sous-dossier `bibliography/`. Ne dépassez pas 1 à 2
     heures de recherche au total pour chaque personne et maximum 2
-    références bibliographiques supplémentaires. Spécifiez votre
+    références bibliographiques supplémentaires. **Spécifiez votre
     question de recherche et faites-là vérifier par un enseignant avant
-    d’aller plus loin.
+    d’aller plus loin.**
 
--   compléter le fichier `docs/dataviz.Rmd` afin d’explorer les données
-    mises à votre disposition à l’aide de tableaux de synthèse et de
-    graphiques.
-
-Après avoir rempli ces trois premiers fichiers, vous devriez avoir une
-vision globale de votre jeu de données et avoir en tête une question de
-recherche précise.
+Après avoir rempli ces deux premiers fichiers et consulté votre projet
+A05Ga_22M_biometry, vous devriez avoir une vision globale de votre jeu
+de données et avoir en tête une question de recherche précise.
 
 ## Phase d’analyse
 
@@ -117,6 +114,20 @@ publications scientifiques (pas de site web, Wikipedia ou autre
 littérature qui n’a pas été revue par des référés). Vous devez citer
 correctement ces références dans `biometry_report.Rmd` en utilisant les
 formatages R Markdown adéquats (référez-vous aux aide-mémoires).
+
+# Notes
+
+N’oubliez pas de “knitter” tous vos documents en HTML à la fin pour
+vérifier que tout fonctionne bien, et corrigez les erreurs éventuelles
+rencontrées à ce stade avant de clôturer votre travail. Vérifiez
+également que votre dernier commit a bien été pushé sur GitHub avant la
+deadline.
+
+N’**utilisez pas** l’argument `echo=FALSE` dans vos chunks. Le code R
+qui génère les résultats doit rester visible dans les versions HTML.
+
+Ce projet correspond au template
+<https://github.com/BioDataScience-Course/A08Ga_human_health>
 
 # Références
 

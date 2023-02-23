@@ -9,37 +9,30 @@ output: html_document
 
 <!--% Sur base de votre recherche bibliographique et de votre état de l'art (`docs/state_of_art.Rmd`), rédigez une introduction du sujet en 4 à 5 paragraphes. Cette introduction doit guider le lecteur vers votre but. -->
 
-
 # But
 
 <!--% Formulez ici concisément et précisément votre question de recherche en 1 à 2 phrases. -->
 
-
 # Matériels et méthodes
 
-<!--% Cette section doit comprendre une explication technique sur les mesures effectuées et sur le protocole de l'expérience. Utilisez ce que vous avez rédigé dans le fichier `docs/measure_protocol.Rmd` pour remplir cette section en 4 à 5 paragraphes. Attention, ceci ne doit pas être un copier-coller de `docs/measure_protocol.Rmd`. Vous devez réaliser une synthèse de l'information la plus pertinente en relation avec votre but et les analyses qui seront retenues ci-dessous dans la partie résultats. Vous ajouterez aussi un paragraphe qui indique les outils logiciels et statistiques utilisés (logicel et version du logiciel). -->
-
+<!--% Cette section doit comprendre une explication technique sur les mesures effectuées et sur le protocole de l'expérience en 4 à 5 paragraphes. Vous devez réaliser une synthèse de l'information la plus pertinente en relation avec votre but et les analyses qui seront retenues ci-dessous dans la partie résultats. Vous ajouterez aussi un paragraphe qui indique les outils logiciels et statistiques utilisés (logicel et version du logiciel). -->
 
 # Résultats
 
 ## Description des données
 
-<!--% Extrayez les quelques éléments les plus pertinents (4 ou 5) de votre document `docs/dataviz.Rmd` pour décrire les données de manière cohérente par rapport au but. Reprenez les interprétations en les reformulant de manière concise pour former un texte qui se lit en continu. -->
+<!--% Extrayez les quelques éléments les plus pertinents (4 ou 5) de votre document `docs/analysis.Rmd` pour décrire les données de manière cohérente par rapport au but. Reprenez les interprétations en les reformulant de manière concise pour former un texte qui se lit en continu. -->
 
 ## Tests d'hypothèses
 
 <!--% Sélectionnez les 3 tests d'hypothèses les plus pertinents depuis `docs/analysis.Rmd`, ainsi bien sûr que les calculs des indices nécessaires que vous placerez juste au dessus de vos tests. Ces tests doivent répondre à votre question de recherche. Reformulez les interprétations pour former un texte qui se lit en continu. -->
 
-
 # Discussion
 
 <!--% Reprenez les résultats obtenus, discutez-les d'un point de vue biologique en 4 à 5 paragraphes. Vous pouvez les mettre également en relation avec vos recherches bibliographiques à ce niveau. -->
-
 
 # Conclusion
 
 <!--% Sur base de votre introduction, votre but, vos résultats et votre discussion, proposez ici une conclusion. -->
 
-
-# Référence {-}
-
+# Référence {.unnumbered}

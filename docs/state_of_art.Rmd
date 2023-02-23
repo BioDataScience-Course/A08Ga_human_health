@@ -9,8 +9,7 @@ output: html_document
 
 <!--% Ce projet porte sur la santé humaine de manière générale, liée à l'obésité, à la façon de se nourrir et aux activités réalisées (plus ou moins sédentaire ou actif), ... Avant de vous lancer dans ce projet, vous devez réaliser des recherches bibliographiques afin d'avoir une vision précise de la thématique. Existe-t'il des indicateurs calculables pour quantifier l'état de santé d'un individu, par exemple ? Naturellement, ces indicateurs doivent être calculables sur bases des variables mesurées dans votre jeu de données. Focalisez-vous donc sur ces variables-là. -->
 
-<!--# Ce document de synthèse sur vos recherches ne doit pas dépasser 2 à 3 pages. Ne dépssaez pas 1 à 23 heures de travail par personne pour cette section. -->
-
+<!--# Ce document de synthèse sur vos recherches ne doit pas dépasser 2 à 3 pages. Ne dépssaez pas 1 à 2 heures de travail par personne pour cette section. -->
 
 ## Question de recherche
 
