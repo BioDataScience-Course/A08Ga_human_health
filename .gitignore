@@ -5,48 +5,75 @@
 # Session Data files
 .RData
 
-# User-specific files
+# R files
+.Rhistory
+.Rapp.history
+.RData
+.RDataTmp
 .Ruserdata
-
-# Example code in package build process
-*-Ex.R
-
-# Output files from R CMD build
-/*.tar.gz
-
-# Output files from R CMD check
-/*.Rcheck/
+.Renviron
 
 # RStudio files
+.Rproj.user
 .Rproj.user/
+rsconnect/
 
-# produced vignettes
+# Compiled files and temporary R Markdown files
+README.html
+*.utf8.md
+*.knit.md
+figure-html/
+*_files/
+*.rmarkdown
+*.html
+*.tex
+*.log
+*.aux
+/*.pdf
+*.docx
+*.doc
+*.pptx
+*.ppt
+
+# Quarto, bookdown, pkgdown website, etc
+inst/doc
+docs
+docs/
+_book/
+_bookdown_files/
+/.quarto/
+/_site/
+.quarto/
+_site/
+
+# Compilation results
+tests/results/
+
+# Key
+tests/.key
+tests/.cnt
+
+# Knitr cache
+*_cache/
+/cache/
+
+# Cache des données
+data/data_cache/
+
+# Package build files
+*-Ex.R
+po/*~
+/*.Rcheck/
 vignettes/*.html
 vignettes/*.pdf
 
 # OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
 .httr-oauth
 
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
-
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
-*.tex
-
-# R Environment Variables
-.Renviron
-
-# README 
-README.html
-
-# All pdf , html and docx files in docs
-
-/docs/**.pdf
-/docs/**.html
-/docs/**.doc
-/docs/**.docx
-/docs/**.tex
-/docs/*_files/
+# System files and others
+www/.vscode/
+.DS_Store
+._*
+.Thumbs.db
+Thumbs.db
+core.*

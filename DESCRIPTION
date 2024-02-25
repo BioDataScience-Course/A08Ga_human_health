@@ -1,0 +1,20 @@
+Package: A08Ga_human_health
+Type: Package
+Version: 1.0.0
+Title: Santé humaine liée à l'obésité
+Description: Projet en groupe des modules 8 à 11 du cours SDD I à l'UMONS
+Authors@R: c(
+  person("Guyliann", "Engels", role = c("aut", "cre"),
+    email = "guyliann.engels@umons.ac.be",
+    comment = c(ORCID = "0000-0001-9514-1014"),
+  person("Philippe", "Grosjean", role = "aut",
+    email = "phgrosjean@sciviews.org",
+    comment = c(ORCID = "0000-0002-2694-9471"))
+  )
+Depends: R (>= 4.2.3)
+SystemRequirements: SciViews Box 2023 (https://www.sciviews.org/software/svbox/)
+License:CC BY-NC-SA 4.0
+URL: https://github.com/BioDataScience-Course/A08Ga_human_health
+BugReports: https://github.com/BioDataScience-Course/A08Ga_human_health/issues
+Encoding: UTF-8
+Language: fr-FR

@@ -1,0 +1,340 @@
+---
+title: "Santé humaine liée à l'obésité (bloc-notes)"
+author: "___, ___, ___, ___"
+date: "`r Sys.Date()`"
+format:
+  html:
+    code-fold: true
+    code-tools: true
+    toc: true
+editor: visual
+lang: fr
+bibliography: bibliography/references.bib
+---
+
+<!--# Dans les différentes sections vous trouverez des indicateurs "...Vos XXX ici..." Vous devez bien sûr REMPLACER ces indicateurs par votre propre texte. Ne les laissez pas dans votre version finale du document. Vous devez travailler dans le même document (pas question de faire un document séparé par étudiant). Gérez les conflits éventuels. -->
+
+```{r setup, include=FALSE}
+# Ceci est nécessaire pour les tests SDD, ne pas utiliser dans un "vrai" projet
+if (!"tools:tests" %in% search())
+  source(here::here("tests/tools_tests.R"), attach(NULL, name = "tools:tests"))
+
+# Configuration de l'environnement SciViews::R
+SciViews::R(___, lang = "fr")
+```
+
+# Introduction et but
+
+Au cours des dernières décennies, la santé humaine a connu un déclin alarmant dans de nombreuses régions du monde. L’obésité est l’un des principaux facteurs contribuant à cette tendance inquiétante, car elle peut entraîner un large éventail de problèmes de santé, notamment des maladies cardiovasculaires, des accidents vasculaires cérébraux, des cancers, des troubles musculo-squelettiques et des troubles mentaux. En outre, l’obésité est souvent associée à un mode de vie sédentaire et à une alimentation malsaine, qui peuvent également avoir des effets négatifs sur la santé.
+
+@lebacq2015 a étudié différents indices permettant de quantifier, entre autres, l'obésité des personnes. Notre but est de tester quelques uns de ces indices sur un échantillon de la population du Hainaut et d'établir des liens avec le mode de vie ou l'alimentation.
+
+# Matériel et méthodes
+
+Les données ont été collectées par un groupe d'une trentaine d'expérimentateurs qui se sont réparti le travail. Le choix des mesures à réaliser a fait l'objet d'un consensus au sein du groupe par l'élaboration d'un dictionnaire des données commun. Les mesures sujettes à variation (la masse plus particulièrement) ont fait l'objet d'une intercalibration. Ces données sont pseudonymisées afin de respecter l'anonymat des sujets étudiés en respect du RGPD (règlement général de la protection des données, règlement d'application en Europe).
+
+La description des données et les tests statistiques sont réalisés dans la [SciViews Box 2023](https://www.sciviews.org/software/svbox/) en utilisant [Saturn Cloud](https://saturncloud.io) (Linux) avec le [logiciel R](https://www.r-project.org) (`r R.version.string`).
+
+# Résultats
+
+## Description des données
+
+<!--% Ajoutez un chunk d'importation des données à partir de vos données remaniées dans `data/biometry.rds`. Inspirez-vous de vos projets individuels pour écrire correctement ces chunks. -->
+
+...Votre chunk d'importation ici...
+
+<!--% Ensuite vous décrirez graphiquement (avec `chart()`) et numériquement (tableaux avec `tabularise()`, `skimr::skim()`, etc.) vos données. Chaque étudiant ajoute deux élements descriptifs pertinents. -->
+
+### Description par l'étudiant 1
+
+...Vos deux descriptions ici...
+
+### Description par l'étudiant 2
+
+...Vos deux descriptions ici...
+
+### Description par l'étudiant 3
+
+...Vos deux descriptions ici...
+
+### Description par l'étudiant 4
+
+...Vos deux descriptions ici...
+
+## Calcul d'indices
+
+<!--% Calculez au moins quatre indices (un par étudiant) en vous basant sur la littérature et en relation avec votre question de recherche. Décrivez chaque indice avec une formule mathématique en LaTeX. Calculez une nouvelle variable dans votre tableau pour cet indice sur base de la formule mathématique. Si cela est pertinent, définissez aussi une variable facteur qui qualifie l'état de bonne santé selon une échelle qualitative. -->
+
+<!--# N'hésitez pas à associer un graphique ou un tableau utiles pour visualiser/décrire vos indices calculés. -->
+
+### Indice 1
+
+<!--% Description et formule ci-dessous. -->
+
+```{r indice1}
+# Calcul de la ou des variables reprenant l'indice sous forme numérique (et facteur)
+
+```
+
+<!--% Graphique ou tableau utilisant l'indice calculé.-->
+
+```{r plot_indice1}
+# Graphique ou tableau utilisant l'indice calculé.
+
+```
+
+<!--% Interprétation en quelques points du graphique ou tableau. -->
+
+-   ...
+
+-   ...
+
+-   ...
+
+### Indice 2
+
+<!--% Description et formule ci-dessous. -->
+
+```{r indice2}
+# Calcul de la ou des variables reprenant l'indice sous forme numérique (et facteur)
+
+```
+
+<!--% Graphique ou tableau utilisant l'indice calculé.-->
+
+```{r plot_indice2}
+# Graphique ou tableau utilisant l'indice calculé.
+
+```
+
+<!--% Interprétation en quelques points du graphique ou tableau. -->
+
+-   ...
+
+-   ...
+
+-   ...
+
+### Indice 3
+
+<!--% Description et formule ci-dessous. -->
+
+```{r indice3}
+# Calcul de la ou des variables reprenant l'indice sous forme numérique (et facteur)
+
+```
+
+<!--% Graphique ou tableau utilisant l'indice calculé.-->
+
+```{r plot_indice3}
+# Graphique ou tableau utilisant l'indice calculé.
+
+```
+
+<!--% Interprétation en quelques points du graphique ou tableau. -->
+
+-   ...
+
+-   ...
+
+-   ...
+
+### Indice 4
+
+<!--% Description et formule ci-dessous. -->
+
+```{r indice4}
+# Calcul de la ou des variables reprenant l'indice sous forme numérique (et facteur)
+
+```
+
+<!--% Graphique ou tableau utilisant l'indice calculé.-->
+
+```{r plot_indice4}
+# Graphique ou tableau utilisant l'indice calculé.
+
+```
+
+<!--% Interprétation en quelques points du graphique ou tableau. -->
+
+-   ...
+
+-   ...
+
+-   ...
+
+## Tests d'hypothèses
+
+<!--% Dans cette partie, réalisez plusieurs tests d'hypothèses pour répondre à des questions en relation avec votre but. N'hésitez pas à employer les indices que vous avez calculé ci-dessus, ainsi que les variables de départ. Effectuez et interprétez au moins deux tests d'hypothèses pour chaque type ci-dessous. Répartissez le travail entre les étudiants : à chaque fois deux étudiants réalisent les deux tests et les deux autres les interprètent (les commits doivent bien montrer qui a fait quoi). -->
+
+<!--# Chaque test d'hypothèse doit être correctement employé. Vous devez indiquer pour chaque test, l'hypothèse nulle et l'hypothèse alternative. Vous devez vérifier les conditions d'application du test d'hypothèse. Vous le réalisez, et ensuite vous l'interprétez du point de vue statistique d'abord et biologique ensuite. -->
+
+### Test de Chi^2^ 1
+
+<!--% Graphique ou tableau présentant les données par rapport au test à réaliser. -->
+
+```{r plot_chi2_1}
+
+```
+
+<!--% Hypothèse nulle et alternative -->
+
+<!--% Vérification des conditions d'application -->
+
+```{r test_chi2_1}
+
+```
+
+<!--% Interprétation statistique et biologique -->
+
+### Test de Chi^2^ 2
+
+<!--% Graphique ou tableau présentant les données par rapport au test à réaliser. -->
+
+```{r plot_chi2_2}
+
+```
+
+<!--% Hypothèse nulle et alternative -->
+
+<!--% Vérification des conditions d'application -->
+
+```{r test_chi2_2}
+
+```
+
+<!--% Interprétation statistique et biologique -->
+
+<!--# Travail jusqu'ici pour le module 8. -->
+
+### Test t de Student 1
+
+<!--% Graphique ou tableau présentant les données par rapport au test à réaliser. -->
+
+```{r plot_t_1}
+
+```
+
+<!-- Hypothèse nulle et alternative -->
+
+<!-- Vérification des conditions d'application -->
+
+```{r test_t_1}
+
+```
+
+<!-- Interprétation statistique et biologique -->
+
+### Test t de Student 2
+
+<!--% Graphique ou tableau présentant les données par rapport au test à réaliser. -->
+
+```{r plot_t_2}
+
+```
+
+<!--% Hypothèse nulle et alternative -->
+
+<!--% Vérification des conditions d'application -->
+
+```{r test_t_2}
+
+```
+
+<!--% Interprétation statistique et biologique -->
+
+<!--# Travail jusqu'ici pour le module 9. Commencez à travailler sur le rapport (intro, mat&met). -->
+
+### ANOVA à un facteur 1
+
+<!--% Graphique ou tableau présentant les données par rapport au test à réaliser. -->
+
+```{r plot_anova1_1}
+
+```
+
+<!--% Hypothèse nulle et alternative -->
+
+<!--% Vérification des conditions d'application -->
+
+```{r test_anova1_1}
+
+```
+
+<!--% Interprétation statistique et biologique -->
+
+### ANOVA à un facteur 2
+
+<!--% Graphique ou tableau présentant les données par rapport au test à réaliser. -->
+
+```{r plot_anova1_2}
+
+```
+
+<!--% Hypothèse nulle et alternative -->
+
+<!--% Vérification des conditions d'application -->
+
+```{r test_anova1_2}
+
+```
+
+<!--% Interprétation statistique et biologique -->
+
+<!--# Travail jusqu'ici pour le module 10. Commencez à rédiger la partie résultats avec la description des données. -->
+
+### ANOVA à deux facteurs 1
+
+<!--% Graphique ou tableau présentant les données par rapport au test à réaliser. -->
+
+```{r plot_anova2_1}
+
+```
+
+<!--% Hypothèse nulle et alternative -->
+
+<!--% Vérification des conditions d'application -->
+
+```{r test_anova2_1}
+
+```
+
+<!--% Interprétation statistique et biologique -->
+
+### ANOVA à deux facteurs 2
+
+<!--% Graphique ou tableau présentant les données par rapport au test à réaliser. -->
+
+```{r plot_anova2_2}
+
+```
+
+<!--% Hypothèse nulle et alternative -->
+
+<!--% Vérification des conditions d'application -->
+
+```{r test_anova2_2}
+
+```
+
+<!--% Interprétation statistique et biologique -->
+
+# Discussion et conclusions
+
+<!--% Reprenez ci-dessous sous forme d'éléments de listes brefs les résultats les plus importants que vous retirez de votre analyse. Ils doivent vous guider pour décider quels tests (les plus intéressants) vous allez conserver dans le rapport. -->
+
+-   ...
+
+-   ...
+
+-   ...
+
+-   ...
+
+-   ...
+
+<!--# Important : ce document doit compiler SANS ERREURS avec le bouton 'Rendu' sinon le travail sera sanctionné lourdement. La compilation du document Quarto est maintenant considérée comme acquise. -->
+
+# Référence
+
+<!--% N'indiquez rien ci-dessous. Quarto se chargera de rajouter vos références bibliographiques automatiquement. -->

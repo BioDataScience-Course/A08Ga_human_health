@@ -1,0 +1,74 @@
+---
+title: "___"
+author: "___, ___, ___, ___"
+date: "`r Sys.Date()`"
+format:
+  html:
+    code-fold: true
+    code-tools: true
+    toc: true
+editor: visual
+lang: fr
+bibliography: bibliography/references.bib
+---
+
+<!--% Complétez l'entête en définissant un titre qui soit représentatif de votre travail. Indiquez aussi les noms des auteurs. -->
+
+<!--# Dans les différentes sections vous trouverez des indicateurs "...Vos XXX ici..." Vous devez bien sûr REMPLACER ces indicateurs par votre propre texte. Ne les laissez pas dans votre version finale du document. Vous devez travailler dans le même document (pas question de faire un document séparé par étudiant). Gérez les conflits éventuels. -->
+
+```{r setup, include=FALSE}
+# Ceci est nécessaire pour les tests SDD, ne pas utiliser dans un "vrai" projet
+if (!"tools:tests" %in% search())
+  source(here::here("tests/tools_tests.R"), attach(NULL, name = "tools:tests"))
+
+# Configuration de l'environnement SciViews::R
+SciViews::R(___, lang = "fr")
+```
+
+# Introduction
+
+<!--% Sur base de la bibliographie (lecture de l'article fourni et de vos propres recherches sur Internet), rédigez une introduction du sujet en 3 à 4 paragraphes. Cette introduction doit guider le lecteur vers votre but. Vous devez citer vos source, c'est-à-dire, indiquer au minimum la référence bibliographique fournie de manière correcte (inspirez-vous de ce qui est indiqué dans le bloc-notes, mais reformulez : un simple copier-coller de l'introduction du bloc-notes n'est PAS considéré comme l'exercice réalisé !) -->
+
+<!--# Ce projet porte sur la santé humaine liée à l'obésité, à la façon de se nourrir et aux activités réalisées (plus ou moins sédentaire ou actif) ... Réalisez des recherches bibliographiques afin d'avoir une vision précise de la thématique. Existe-t'il des indicateurs calculables pour quantifier l'état de santé d'un individu, par exemple ? Naturellement, ces indicateurs doivent être calculables sur bases des variables mesurées dans votre jeu de données. Focalisez-vous donc sur ces variables-là. -->
+
+...Votre introduction ici...
+
+# But
+
+<!--% Formulez ici de façon concise et précise votre question de recherche en 1 à 2 phrases. -->
+
+...Votre but ici...
+
+# Matériel et méthodes
+
+<!--% Cette section doit comprendre une explication technique sur les mesures effectuées et sur le protocole relatif à l'acquisition des données en 3 à 4 paragraphes. Vous ajouterez aussi un paragraphe qui détaille les outils logiciels et statistiques utilisés (logiciels et versions des logiciels). Un simple copier-coller du matériel et méthodes du bloc-notes ne sera PAS considéré comme acceptable. -->
+
+...Votre matmet ici...
+
+# Résultats
+
+## Description des données
+
+<!--% Extrayez les quelques éléments les plus pertinents (3 à 5) de votre document `human_notebook.qmd` pour décrire les données de manière cohérente par rapport au but. Reprenez les interprétations en les reformulant de manière concise pour former un texte qui se lit en continu (donc un texte plus construit que ce que vous avez indiqué dans le bloc-notes). -->
+
+<!--# N'oubliez pas que ce document doit pouvoir compiler indépendamment du reste. Cela implique que vous ajoutiez un chunk d'importation des données et que vous recalculiez tout ce qui doit l'être... Par contre, un simple copier-coller de toute la partie résultats du bloc-notes ne sera pas considéré comme un travail réalisé : vous devez sélectionner, et éventuellement remanier un peu le code, pour ne conserver que ce qui est utile ici. -->
+
+...Vos descriptions des données ici...
+
+## Tests d'hypothèses
+
+<!--% Sélectionnez les 4 tests d'hypothèses les plus pertinents depuis `human_notebook.qmd`, ainsi bien sûr que les calculs des indices nécessaires que vous placerez juste au dessus de vos tests. Ces tests doivent répondre à votre question de recherche (le but). Reformulez les interprétations pour former un texte qui se lit en continu. -->
+
+...Vos tests d'hypothèses ici...
+
+# Discussion et conclusions
+
+<!--% Reprenez les résultats obtenus, discutez-les d'un point de vue biologique en 4 à 5 paragraphes et concluez votre travail. Vous pouvez les mettre également en relation avec vos recherches bibliographiques dans cette section. -->
+
+...Vos conclusions ici...
+
+<!--# Important : ce document doit compiler SANS ERREURS avec le bouton 'Rendu' sinon le travail sera sanctionné lourdement. La compilation du document Quarto est maintenant considérée comme acquise. -->
+
+# Référence
+
+<!--% N'indiquez rien ci-dessous. Quarto se chargera de rajouter vos références bibliographiques automatiquement. -->
