@@ -1,77 +1,72 @@
-# Importation, nettoyage et sauvegarde local des données
+# Étude de l'obésité - Importation et remaniement des données
+# Auteur : ___
+# Date : ____
+###############################################################################
 
 # Packages utiles
 SciViews::R(lang = "fr")
 
+# Importation des données brutes
 
-# Importation des données brutes ------------------------------------------
+## Création des dossier `data/` et `cache/`
+fs::dir_create("data/cache")
 
-# Création des dossier `data/` et `data_cache/`
-dir_create("data/data_cache")
-
-# Importation du dictionnaire des données
-dictionnary <- read$csv(
-  "https://docs.google.com/spreadsheets/d/e/2PACX-1vS6Zv8rMf1eQVOcLanotqeJ8rw2eGVQ3sAXfJk3_mxUDcwALcn9irtcBK42ynfUSuuYA4X7vk4yiBs3/pub?output=csv",
-  cache_file = "data/data_cache/dictionnary.csv",
+## Importation du dictionnaire des données
+biometry_metadata <- read$csv(
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vSasAZFal-ljIJkB8LaPo1q-I6KKUbqXcdDNmbvwMhGD4f1_4tpbTRr1kWGrE4JZ1SHYBAUGfRFHhME/pub?gid=0&single=true&output=csv",
+  cache_file = "data/cache/biometry_metadata_raw.csv",
   force = FALSE
 )
 
-# Importation du tableau de données
+## Importation du tableau de données
 biometry <- read$csv(
-  "https://docs.google.com/spreadsheets/d/e/2PACX-1vS3hqfeIg6xGEliHpxQAZEvQxqEdQFSYDll0gysoS8seTjk9BNKHR99poZAOR2Zi5QhPdeSE9Rq4LPA/pub?output=csv",
-  cache_file = "data/data_cache/biometry_raw.csv",
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vS9yT2JjKi_LD00flboVYyovOnYMuh5NLKTFXOZYetAUE9xFUQYtUOhVhmb4Xf73mxbt4NThe2kjfe6/pub?gid=0&single=true&output=csv",
+  cache_file = "data/cache/biometry_raw.csv",
   force = FALSE
 )
 
+# Exploration des données
 
-# Exploration des données brutes ------------------------------------------
+skimr::skim(biometry)
 
-# Vous pouvez décommenter et/ou ajouter ici le code qui vous permet de prendre
-# connaissance de vos données brutes, par exemple :
-# (note : ne modifiez pas encore le tableau `biometry` ici)
-#visdat::vis_dat(biometry)
-#skimr::skim(biometry)
-#
-#chart(biometry, ~ date_naissance) +
-#  geom_histogram(bins = 50)
-#
-#chart(biometry, ~ antecedents_anorexie) +
-#  geom_bar()
+# Modification des types de variables des données
 
+unique(biometry$genre)
+biometry$genre <- factor(biometry$genre, levels = c("h", "f"))
 
-# Corrections -------------------------------------------------------------
+unique(biometry$regime)
+biometry$regime <- factor(biometry$regime, levels = c("omnivore", "carnivore", "végétarien"))
 
-# Retirer la ligne d'exemple
-biometry <- sfilter(biometry, id != "00_A")
+unique(biometry$depense)
+biometry$depense <- factor(biometry$depense, levels = c(-2, -1, 1, 2), labels = c("très insuffisant", "insuffisant", "suffisant", "plus que suffisant") , ordered = TRUE)
 
-# Retirer les lignes sans correction de masse
-biometry <- sdrop_na(biometry, corr_masse)
+unique(biometry$depense)
+biometry$activite <- factor(biometry$activite, levels = c(0:4), ordered = TRUE)
 
-# Correction de niveaux mal othographiés
-(.= biometry$activite_physique)[. == "très élévée"] <- "très élevée"
-(.= biometry$regime_alimentaire)[. == "omninore"] <- "omnivore"
+unique(biometry$hormone)
+biometry$hormone <- factor(biometry$hormone, levels = c("non", "oui"))
 
+unique(biometry$pathologie)
+biometry$pathologie <- factor(biometry$pathologie, levels = c("non", "oui"))
 
-# Ajout des types de variables --------------------------------------------
+# Correction, filtre, sélection sur le tableau des données
 
-biometry <- smutate(biometry,
-  activite_physique = factor(activite_physique, 
-    levels = c("nulle", "faible", "moyenne", "très élevée")),
-  antecedents_obesite = factor(antecedents_obesite, levels = c("oui", "non")),
-  antecedents_anorexie = factor(antecedents_anorexie, levels = c("oui", "non")),
-  masse_brutes = masse,
-  masse = masse_brutes * corr_masse,
-  regime_alimentaire = factor(regime_alimentaire,
-    levels = c("omnivore", "carnivore", "végétarien"))
-)
+biometry %>.%
+  smutate(., 
+  # Calcul de l'age des individu
+  age = as.numeric(difftime(date_mesure, date_naissance, units = "days")/365.25), 
+  # Calcul de la masse corrigée
+  masse_corr = masse*(masse_exp_ref/masse_exp)) %>.%
+  sdrop_na(., masse_corr) -> 
+  biometry
 
-
-# Ajout des labels et des unités ------------------------------------------
-
+# Ajout des labels et des unités
 # TODO
 
 
-# Sauvegarde locale des données et nettoyage de l'environnement -----------
-
+# Sauvegarde local des données importantes 
 write$rds(biometry, "data/biometry.rds", compress = "xz")
-rm(dictionnary, biometry)
+write$rds(biometry_metadata, "data/biometry_metadata.rds", compress = "xz")
+
+# Élimination des objets de l'environnement global
+rm(biometry_metadata, biometry)

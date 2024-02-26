@@ -4,7 +4,7 @@ Sur base des mesures que vous avez réalisées à la fin du cours de "Science de
 
 ## Objectifs
 
-Ce projet est libre et par groupe de quatre étudiants. Il est important car il vous permet de démontrer que vous avez acquis les compétences suivantes :
+Ce projet est libre et par groupe de quatre étudiants. Il est important, car il vous permet de démontrer que vous avez acquis les compétences suivantes :
 
 -   être capable de partager équitablement le travail entre les membres du groupe
 -   être capable de poser une question de recherche
@@ -15,13 +15,13 @@ Ce projet est libre et par groupe de quatre étudiants. Il est important car il 
 
 ## Consignes
 
-Ce projet comprend deux documents que vous allez devoir compléter. Répartissez-vous judicieusement le travail. Ce projet fait suite au projet A05Ga_23M_biometry. Vous avez pu, lors de ce premier projet collecter, nettoyer et explorer des données en lien avec la santé humaine. Ce nouveau projet va s’appuyer sur les données que vous avez collectées.
+Ce projet comprend deux documents que vous allez devoir compléter. Répartissez-vous judicieusement le travail. Ce projet fait suite au projet A05Ga_23M_biometry. Vous avez pu, lors de ce premier projet collecter, nettoyer et explorer des données en lien avec la santé humaine. Ce nouveau projet va s'appuyer sur les données que vous avez collectées.
 
-Votre progression se fera en plusioeurs étapes réparties entre le module 8 et le module 11
+Votre progression se fera en plusieurs étapes réparties entre le module 8 et le module 11
 
 ### Module 8
 
--   Commencez par rechercher les éléments intéressants (indices) dans la référence forunie dans le dossier `bibliography` et prenez note de l'endroit où ils se trouvent. Recherchez au moins quatre indices différents et attrribuez-vous à chacun un indice à présenter et à calculer.
+-   Commencez par rechercher les éléments intéressants (indices) dans la référence fournie dans le dossier `bibliography` et prenez note de l'endroit où ils se trouvent. Recherchez au moins quatre indices différents et attribuez-vous à chacun un indice à présenter et à calculer.
 
 -   Compléter le fichier `R/import_tidy.R` afin de récupérer les données localement. Vous devez également y ajouter les labels et les unités en utilisant le dictionnaire des données.
 
@@ -31,13 +31,13 @@ Votre progression se fera en plusioeurs étapes réparties entre le module 8 et 
 
 -   Rajoutez deux tests t de Student dans `human_notebook.qmd`.
 
--   Rédigez l'introduction, le but et le matériel et méthodes de `human_report.qmd`.
+-   Rédigez l'introduction, le but et le matériel et méthodes dans `human_report.qmd`.
 
 Vous devez avoir complété le bloc-notes jusqu'à l'indication "Travail jusqu'ici pour le module 9. Commencez à travailler sur le rapport (intro, mat&met)."
 
 ### Module 10
 
--   Réalisez deux ANOVAs à un facteur dans ùhuman_notebook.qmd`.
+-   Réalisez deux ANOVAs à un facteur dans `human_notebook.qmd`.
 
 -   Complétez le rapport `human_report.qmd` pour la partie résultats concernant la description des données.
 
@@ -53,7 +53,7 @@ Vous avez encore du temps pour finaliser ces deux documents bloc-notes et rappor
 
 ## Ressources bibliographiques
 
-Vous avez à votre disposition une référence (chapitre du livre anthropométrie rédigé par Lebacq (2015)). Une recherche devrait vous mener à compléter ceci par une à deux autres références sous forme de publications scientifiques (pas de site web, Wikipedia ou autre littérature qui n’a pas été revue par des référés). Vous devez citer correctement ces références dans `biometry_report.Rmd` en utilisant les formatages R Markdown adéquats (référez-vous aux aide-mémoires et au bloc-notes où l'inntroduction est rédigée pour vous comme exemple).
+Vous avez à votre disposition une référence (chapitre du livre anthropométrie rédigé par Lebacq (2015)). Une recherche devrait vous mener à compléter ceci par une à deux autres références sous forme de publications scientifiques (pas de site web, Wikipedia ou autre littérature qui n’a pas été revue par des référés). Vous devez citer correctement ces références dans `biometry_report.Rmd` en utilisant les formatages R Markdown adéquats (référez-vous aux aide-mémoires et au bloc-notes où l'introduction est rédigée pour vous comme exemple).
 
 ## Notes importantes
 
