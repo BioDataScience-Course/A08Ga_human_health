@@ -12,7 +12,7 @@ lang: fr
 bibliography: bibliography/references.bib
 ---
 
-<!--# Dans les différentes sections vous trouverez des indicateurs "...Vos XXX ici..." Vous devez bien sûr REMPLACER ces indicateurs par votre propre texte. Ne les laissez pas dans votre version finale du document. Vous devez travailler dans le même document (pas question de faire un document séparé par étudiant). Gérez les conflits éventuels. -->
+<!--# Dans les différentes sections, vous trouverez des indicateurs "...Vos XXX ici..." Vous devez bien sûr REMPLACER ces indicateurs par votre propre texte. Ne les laissez pas dans votre version finale du document. Vous devez travailler dans le même document (pas question de faire un document séparé par étudiant). Gérez les conflits éventuels. -->
 
 ```{r setup, include=FALSE}
 # Ceci est nécessaire pour les tests SDD, ne pas utiliser dans un "vrai" projet
@@ -27,7 +27,7 @@ SciViews::R(___, lang = "fr")
 
 Au cours des dernières décennies, la santé humaine a connu un déclin alarmant dans de nombreuses régions du monde. L’obésité est l’un des principaux facteurs contribuant à cette tendance inquiétante, car elle peut entraîner un large éventail de problèmes de santé, notamment des maladies cardiovasculaires, des accidents vasculaires cérébraux, des cancers, des troubles musculo-squelettiques et des troubles mentaux. En outre, l’obésité est souvent associée à un mode de vie sédentaire et à une alimentation malsaine, qui peuvent également avoir des effets négatifs sur la santé.
 
-@lebacq2015 a étudié différents indices permettant de quantifier, entre autres, l'obésité des personnes. Notre but est de tester quelques uns de ces indices sur un échantillon de la population du Hainaut et d'établir des liens avec le mode de vie ou l'alimentation.
+@lebacq2015 a étudié différents indices permettant de quantifier, entre autres, l'obésité des personnes. Notre but est de tester quelques-uns de ces indices sur un échantillon de la population du Hainaut et d'établir des liens avec le mode de vie ou l'alimentation.
 
 # Matériel et méthodes
 
@@ -43,7 +43,7 @@ La description des données et les tests statistiques sont réalisés dans la [S
 
 ...Votre chunk d'importation ici...
 
-<!--% Ensuite vous décrirez graphiquement (avec `chart()`) et numériquement (tableaux avec `tabularise()`, `skimr::skim()`, etc.) vos données. Chaque étudiant ajoute deux élements descriptifs pertinents. -->
+<!--% Ensuite vous décrirez graphiquement (avec `chart()`) et numériquement (tableaux avec `tabularise()`, `skimr::skim()`, etc.) vos données. Chaque étudiant ajoute deux éléments descriptifs pertinents. -->
 
 ### Description par l'étudiant 1
 
@@ -165,9 +165,9 @@ La description des données et les tests statistiques sont réalisés dans la [S
 
 ## Tests d'hypothèses
 
-<!--% Dans cette partie, réalisez plusieurs tests d'hypothèses pour répondre à des questions en relation avec votre but. N'hésitez pas à employer les indices que vous avez calculé ci-dessus, ainsi que les variables de départ. Effectuez et interprétez au moins deux tests d'hypothèses pour chaque type ci-dessous. Répartissez le travail entre les étudiants : à chaque fois deux étudiants réalisent les deux tests et les deux autres les interprètent (les commits doivent bien montrer qui a fait quoi). -->
+<!--% Dans cette partie, réalisez plusieurs tests d'hypothèses pour répondre à des questions en relation avec votre but. N'hésitez pas à employer les indices que vous avez calculés ci-dessus, ainsi que les variables de départ. Effectuez et interprétez au moins deux tests d'hypothèses pour chaque type ci-dessous. Répartissez le travail entre les étudiants : à chaque fois deux étudiants réalisent les deux tests et les deux autres les interprètent (les commits doivent bien montrer qui a fait quoi). -->
 
-<!--# Chaque test d'hypothèse doit être correctement employé. Vous devez indiquer pour chaque test, l'hypothèse nulle et l'hypothèse alternative. Vous devez vérifier les conditions d'application du test d'hypothèse. Vous le réalisez, et ensuite vous l'interprétez du point de vue statistique d'abord et biologique ensuite. -->
+<!--# Chaque test d'hypothèse doit être correctement employé. Vous devez indiquer, pour chaque test, l'hypothèse nulle et l'hypothèse alternative. Vous devez vérifier les conditions d'application du test d'hypothèse. Vous le réalisez, et ensuite vous l'interprétez du point de vue statistique d'abord et biologique ensuite. -->
 
 ### Test de Chi^2^ 1
 
@@ -205,7 +205,7 @@ La description des données et les tests statistiques sont réalisés dans la [S
 
 <!--% Interprétation statistique et biologique -->
 
-<!--# Travail jusqu'ici pour le module 8. -->
+<!--# Travaillez jusqu'ici pour le module 8. -->
 
 ### Test t de Student 1
 
@@ -243,7 +243,7 @@ La description des données et les tests statistiques sont réalisés dans la [S
 
 <!--% Interprétation statistique et biologique -->
 
-<!--# Travail jusqu'ici pour le module 9. Commencez à travailler sur le rapport (intro, mat&met). -->
+<!--# Travaillez jusqu'ici pour le module 9. Commencez à travailler sur le rapport (intro, mat&met). -->
 
 ### ANOVA à un facteur 1
 
@@ -281,7 +281,7 @@ La description des données et les tests statistiques sont réalisés dans la [S
 
 <!--% Interprétation statistique et biologique -->
 
-<!--# Travail jusqu'ici pour le module 10. Commencez à rédiger la partie résultats avec la description des données. -->
+<!--# Travaillez jusqu'ici pour le module 10. Commencez à rédiger la partie résultats avec la description des données. -->
 
 ### ANOVA à deux facteurs 1
 

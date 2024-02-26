@@ -14,7 +14,7 @@ bibliography: bibliography/references.bib
 
 <!--% Complétez l'entête en définissant un titre qui soit représentatif de votre travail. Indiquez aussi les noms des auteurs. -->
 
-<!--# Dans les différentes sections vous trouverez des indicateurs "...Vos XXX ici..." Vous devez bien sûr REMPLACER ces indicateurs par votre propre texte. Ne les laissez pas dans votre version finale du document. Vous devez travailler dans le même document (pas question de faire un document séparé par étudiant). Gérez les conflits éventuels. -->
+<!--# Dans les différentes sections, vous trouverez des indicateurs "...Vos XXX ici..." Vous devez bien sûr REMPLACER ces indicateurs par votre propre texte. Ne les laissez pas dans votre version finale du document. Vous devez travailler dans le même document (pas question de faire un document séparé par étudiant). Gérez les conflits éventuels. -->
 
 ```{r setup, include=FALSE}
 # Ceci est nécessaire pour les tests SDD, ne pas utiliser dans un "vrai" projet
@@ -27,9 +27,9 @@ SciViews::R(___, lang = "fr")
 
 # Introduction
 
-<!--% Sur base de la bibliographie (lecture de l'article fourni et de vos propres recherches sur Internet), rédigez une introduction du sujet en 3 à 4 paragraphes. Cette introduction doit guider le lecteur vers votre but. Vous devez citer vos source, c'est-à-dire, indiquer au minimum la référence bibliographique fournie de manière correcte (inspirez-vous de ce qui est indiqué dans le bloc-notes, mais reformulez : un simple copier-coller de l'introduction du bloc-notes n'est PAS considéré comme l'exercice réalisé !) -->
+<!--% Sur base de la bibliographie (lecture de l'article fourni et de vos propres recherches sur Internet), rédigez une introduction du sujet en 3 à 4 paragraphes. Cette introduction doit guider le lecteur vers votre but. Vous devez citer vos sources, c'est-à-dire qu’il faut indiquer au minimum la référence bibliographique fournie de manière correcte (inspirez-vous de ce qui est indiqué dans le bloc-notes, mais reformulez : un simple copier-coller de l'introduction du bloc-notes n'est PAS considéré comme l'exercice réalisé !) -->
 
-<!--# Ce projet porte sur la santé humaine liée à l'obésité, à la façon de se nourrir et aux activités réalisées (plus ou moins sédentaire ou actif) ... Réalisez des recherches bibliographiques afin d'avoir une vision précise de la thématique. Existe-t'il des indicateurs calculables pour quantifier l'état de santé d'un individu, par exemple ? Naturellement, ces indicateurs doivent être calculables sur bases des variables mesurées dans votre jeu de données. Focalisez-vous donc sur ces variables-là. -->
+<!--# Ce projet porte sur la santé humaine liée à l'obésité, à la façon de se nourrir et aux activités réalisées (plus ou moins sédentaire ou actif) ... Réalisez des recherches bibliographiques afin d'avoir une vision précise de la thématique. Existe-t-il des indicateurs calculables pour quantifier l'état de santé d'un individu, par exemple ? Naturellement, ces indicateurs doivent être calculables sur bases des variables mesurées dans votre jeu de données. Focalisez-vous donc sur ces variables-là. -->
 
 ...Votre introduction ici...
 
@@ -57,7 +57,7 @@ SciViews::R(___, lang = "fr")
 
 ## Tests d'hypothèses
 
-<!--% Sélectionnez les 4 tests d'hypothèses les plus pertinents depuis `human_notebook.qmd`, ainsi bien sûr que les calculs des indices nécessaires que vous placerez juste au dessus de vos tests. Ces tests doivent répondre à votre question de recherche (le but). Reformulez les interprétations pour former un texte qui se lit en continu. -->
+<!--% Sélectionnez les 4 tests d'hypothèses les plus pertinents depuis `human_notebook.qmd`, ainsi bien sûr que les calculs des indices nécessaires que vous placerez juste au-dessus de vos tests. Ces tests doivent répondre à votre question de recherche (le but). Reformulez les interprétations pour former un texte qui se lit en continu. -->
 
 ...Vos tests d'hypothèses ici...
 

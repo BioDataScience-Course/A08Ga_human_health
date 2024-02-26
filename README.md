@@ -25,7 +25,7 @@ Votre progression se fera en plusieurs étapes réparties entre le module 8 et l
 
 -   Compléter le fichier `R/import_tidy.R` afin de récupérer les données localement. Vous devez également y ajouter les labels et les unités en utilisant le dictionnaire des données.
 
--   Compléter le début du fichier `human_notebook.qmd` jusqu'à l'indication "Travail jusqu'ici pour le module 8", à la fin des sections consacrées aux test Chi^2^.
+-   Compléter le début du fichier `human_notebook.qmd` jusqu'à l'indication "Travaillez jusqu'ici pour le module 8", à la fin des sections consacrées aux test Chi^2^.
 
 ### Module 9
 
@@ -33,7 +33,7 @@ Votre progression se fera en plusieurs étapes réparties entre le module 8 et l
 
 -   Rédigez l'introduction, le but et le matériel et méthodes dans `human_report.qmd`.
 
-Vous devez avoir complété le bloc-notes jusqu'à l'indication "Travail jusqu'ici pour le module 9. Commencez à travailler sur le rapport (intro, mat&met)."
+Vous devez avoir complété le bloc-notes jusqu'à l'indication "Travaillez jusqu'ici pour le module 9. Commencez à travailler sur le rapport (intro, mat&met)."
 
 ### Module 10
 
@@ -41,7 +41,7 @@ Vous devez avoir complété le bloc-notes jusqu'à l'indication "Travail jusqu'i
 
 -   Complétez le rapport `human_report.qmd` pour la partie résultats concernant la description des données.
 
-Vous devez avoir complété le bloc-notes jusqu'à l'indication "Travail jusqu'ici pour le module 10. Commencez à rédiger la partie résultats avec la description des données."
+Vous devez avoir complété le bloc-notes jusqu'à l'indication "Travaillez jusqu'ici pour le module 10. Commencez à rédiger la partie résultats avec la description des données."
 
 ### Module 11
 
